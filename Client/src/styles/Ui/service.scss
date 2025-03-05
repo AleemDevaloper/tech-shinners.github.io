@@ -1,0 +1,91 @@
+.services{
+    .services-bg{
+        padding: 60px 0px;
+        background: url(../../images/service/serbg2.webp) no-repeat;
+        background-size: 100% 100%;
+        h1{
+            color: white;
+            font-size: 58px;
+            @media (max-width: 450px) {
+                font-size: 50px;
+            }
+            span{
+                color: #00CCFF;
+            }
+        }
+        .contact-btn{
+            background: transparent;
+            border: 1px solid #00CCFF;
+            color: white !important;
+            padding: 8px 20px;
+            margin: 20px 0px;
+            transition: all .5s;
+            border-radius: 10px;
+        }
+        .contact-btn:hover{
+            background: #00CCFF;
+            color: white;
+        }
+    }
+    .desing{
+        img{
+           height: 80%;
+        }
+    }
+    .mobile{
+        img{
+            height: 70%;
+            @media (max-width:992px){
+                height: 100%;
+            }
+        }
+
+    }
+    h1{
+        color: #00CCFF;
+        font-size: 48px;
+    }
+    h3{
+        color: #00CCFF;
+    }
+    p{
+        color: black;
+        font-size: 20px;
+    }
+      img{
+        width: 100%;
+      }
+      .social{
+        height: 100%;
+        @media (max-width:992px){
+            margin: 0px 0px;
+            height: 60%;
+        }
+        img{
+            @media (max-width:1199px){
+                margin: 40px 0px;
+            }
+            @media (max-width:992px){
+                margin: 0px 0px;
+                max-height: 400px;
+                max-width: 100%;
+            }
+        }
+      }
+    .bg-grey{
+        background: #f4f4f4;
+        h1{
+            color: #00CCFF;
+        }
+        button{
+            color: white;
+            background: #00CCFF;
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: all .5s;
+        }
+        button:hover{
+            background: #001829;
+        }
+    }
+}

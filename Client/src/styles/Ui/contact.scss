@@ -1,0 +1,127 @@
+.contact{
+    h1{
+        font-size: 60px !important;
+        font-weight: 630;
+        color: #ffffff;
+    }
+    span{
+        color: #00CCFF;
+    }
+    .contact-img{
+        height: 250px;
+        background: url(/src/images/Contact/contact.jpg) no-repeat;
+        background-size: cover;
+        @media (max-width: 991px) {
+            background-size: 100% 100%;
+        }
+    }
+    .border{
+        border-radius: 20px;
+        box-shadow: 0px 0px 16px 0px rgb(185, 185, 185);
+       .col-lg-4{
+        border-radius: 0px 20px 20px 0px;
+        background: #001829;
+        @media (max-width: 991px) {
+            border-radius: 20px 20px 0px 0px;
+        }
+        h3{
+            color: #ffffff;
+        }
+        h2{
+            font-weight: 600;
+            color: #ffffff;
+        }
+       }
+       
+       
+        ul{
+            li{
+                margin: 10px 0px;
+                font-size: 24px;
+                color: #ffffff;
+                i{
+                    color: #00CCFF;
+                    padding: 5px 10px;
+                    font-size: 20px;
+                }
+            }
+        }
+        
+    }
+    .form{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        input{
+            width: 100%;
+            border: 1px solid black;
+            margin: 8px 0px;
+            padding: 10px 13px;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+        }
+        textarea{
+            width: 100%;
+            border: 1px solid black;
+            margin: 8px 0px;
+            padding: 10px 13px;
+        }
+        button{
+            background: #00CCFF;
+        border-radius: 6px;
+        padding: 10px 25px;
+        font-size: 20px;
+        color: white;
+        transition: all .5s; 
+        border: 2px solid #00CCFF;
+        }
+        button:hover{
+            background: transparent;
+            color: #00CCFF;
+            border: 2px solid #00CCFF;
+        }
+    }
+}
+.bg-grey{
+    background: rgb(214, 214, 214);
+    .sub{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        @media (max-width: 464px) {
+            flex-direction: column;
+            align-items: start;
+            input{
+                margin: 10px 0px;
+            }
+            button{
+                margin: 8px 8px;
+            }
+        }
+        input{
+            font-size: 20px;
+            border-radius: 6px;
+            padding: 10px 10px;
+        }
+        button{
+            background: #00CCFF;
+            border-radius: 6px;
+            padding: 10px 25px;
+            font-size: 20px;
+            color: white;
+            transition: all .5s;
+        }
+        button:hover{
+            background-color: #001829;
+        }
+    }
+   
+}
+.c-bg{
+    background-color: #00CCFF;
+    img{
+        height: 80px;
+    }
+}

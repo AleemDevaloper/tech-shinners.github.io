@@ -1,0 +1,28 @@
+.pay-bg{
+    .row{
+        .col-12{
+            background: url(/src/images/Terms-and-condition/paymet.jpg) no-repeat;
+            height: 250px;
+            background-size: cover;
+    
+        }
+    }
+}
+.pay-text{
+    h1{
+        color: #00CCFF;
+    }
+    button{
+        color: white;
+        background: #00CCFF;
+        padding: 10px 20px;
+        border-radius: 10px;
+        transition: all .5s;
+    }
+    button:hover{
+        background: #001829;
+    }
+    .bg-grey{
+        background: #f4f4f4;
+    }
+}

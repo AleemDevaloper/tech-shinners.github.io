@@ -1,0 +1,154 @@
+.home{
+    .main{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: url(../../images/home.png) no-repeat;
+        background-size: 100% 100%;
+        @media (max-width: 767px) {
+            background-size: cover;
+        }
+        .type{
+            position: relative;
+            font-size: 60px;
+            @media (max-width: 767px) {
+                font-size: 50px;
+            }
+            @media (max-width: 312px) {
+                font-size: 42px;
+            }
+            
+            h1::before{
+                content: "Web App";
+                color: #00CCFF;
+                animation: words 20s infinite;
+                transition: all 1s;
+            }
+            @keyframes words {
+                0%, 20%{
+                   content: "Web App";
+                }
+                20%, 40%{
+                    content: "Andriod App"
+                }
+                40% , 60%{
+                    content: "Ios App";
+                }
+                60% , 80%{
+                    content: "Dekstop Apps";
+                }
+                80% , 90%{
+                    content: "Eccomrence Apps";
+                }
+            }
+            
+        }
+        
+        h1{
+            
+            font-size: 60px;
+            color: white;
+            @media (max-width: 767px) {
+                font-size: 50px;
+            }
+            @media (max-width: 312px) {
+                font-size: 42px;
+            }
+        }
+        .contact-btn{
+            background: transparent;
+            border: 1px solid #00CCFF;
+            color: white;
+            padding: 8px 20px;
+            transition: all .5s;
+            border-radius: 10px;
+        }
+        .contact-btn:hover{
+            background: #00CCFF;
+            color: white;
+        }
+    }
+    .works{
+        background: #f4f4f4;
+        .work{
+            background: white;
+            box-shadow: 0px 0px 16px 0px rgb(185, 185, 185);
+            border-radius: 10px;
+        }
+    }
+    .idea{
+        
+        img{
+            width: 100%;
+            @media (max-width: 767px) {
+                height: 300px;
+                width: 500px;
+            }
+            @media (max-width: 590px) {
+                height: 240px;
+                width: 400px;
+            }
+            @media (max-width: 425px) {
+                height: 200px;
+                width: 300px;
+            }
+        }
+    }
+    h2{
+        color: #00CCFF;
+        font-size: 45px;
+    }
+    .icons{
+      
+        img{
+            max-width: 60%;
+        }
+    }
+    h4{
+       font-size: 20px;
+       @media (max-width: 767px) {
+          font-size: 35px;
+       }
+    }
+    .achive{
+        h3{
+            font-size: 34px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 24px;
+        }
+    }
+
+    .bg-grey{
+        background: #f4f4f4;
+        h1{
+            color: #00CCFF;
+        }
+        button{
+            color: white;
+            background: #00CCFF;
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: all .5s;
+        }
+        button:hover{
+            background: #001829;
+        }
+    }
+    .contact-btn{
+        background: transparent;
+        border: 1px solid #00CCFF;
+        color: black;
+        padding: 8px 20px;
+        transition: all .5s;
+        border-radius: 10px;
+    }
+    .contact-btn:hover{
+        background: #00CCFF;
+        color: white;
+    }
+}
+

@@ -1,0 +1,65 @@
+.prot{
+    .prot-bg{
+        padding: 60px 0px;
+        background: url(../../images/protfolio/protfolio-bg.webp) no-repeat;
+        background-size: 100% 100%;
+        h1{
+            color: white;
+            font-size: 58px;
+            @media (max-width: 450px) {
+                font-size: 50px;
+            }
+            span{
+                color: #00CCFF;
+            }
+        }
+        .contact-btn{
+            background: transparent;
+            border: 1px solid #00CCFF;
+            color: white !important;
+            padding: 8px 20px;
+            margin: 20px 0px;
+            transition: all .5s;
+            border-radius: 10px;
+        }
+        .contact-btn:hover{
+            background: #00CCFF;
+            color: white;
+        }
+    }
+    
+    h1{
+        color: #00CCFF;
+        font-size: 48px;
+    }
+    h3{
+        color: #00CCFF;
+    }
+    p{
+        color: black;
+        font-size: 20px;
+    }
+    .card-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            background: #00CCFF;
+            color: white;
+            font-size: 25px;
+            padding: 10px 40px;
+            border-radius: 10px;
+            border: 2px solid #00CCFF;
+            transition: all .5s;
+        }
+        button:hover{
+            background: transparent;
+            border: 2px solid #00CCFF;
+            color: #00CCFF;
+        }
+    }
+      
+
+        
+      
+}
